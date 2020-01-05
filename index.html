@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Slot Machine</title>
+    <link href="./style.css" rel="stylesheet">
+    <script src="./script.js"></script>
+</head>
+
+<body onload="Start()">
+    <div id="spinner-container" class="standard-border flex-center">
+        <div id="row-1" class="row"></div>
+        <div id="row-2" class="row"></div>
+        <div id="row-3" class="row"></div>
+        <div id="row-4" class="row"></div>
+        <div id="row-5" class="row"></div>
+    </div>
+    <div id="stats-container" class="flex-center">
+        <div id="total-money-container" class="flex-center standard-border text"></div>
+        <div id="spin-settings-container" class="flex-center">
+            <div id="spin-amount-adjustment-container" class="standard-border flex-center">
+                <div id="spin-amount" class="flex-center text"></div>
+            </div>
+            <div id="adjust-amount-container" class="flex-center">
+                <div id="increase-amount-button" class="pressable flex-center standard-border text">↑</div>
+                <div id="decrease-amount-button" class="pressable flex-center standard-border text">↓</div>
+            </div>
+        </div>
+        <div id="spin-container" class="standard-border pressable text flex-center">
+            SPIN
+        </div>
+    </div>
+</body>
+
+</html>

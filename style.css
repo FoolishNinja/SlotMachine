@@ -1,0 +1,115 @@
+html, body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#spinner-container {
+    width: 80%;
+    height: 90%;
+    margin-left: 5%;
+}
+
+#spin-container {
+    height: 15%;
+    width: 90%;
+    background: #009F00;
+    font-size: 100px;
+}
+
+#row-1 {
+    border-left: none;
+}
+
+#stats-container {
+    width: 15%;
+    height: 90%;
+    flex-direction: column;
+}
+
+#total-money-container {
+    width: 90%;
+    height: 20%;
+    font-size: 65px;
+}
+
+#spin-settings-container {
+    width: 100%;
+    height: 40%;
+    flex-direction: column;
+}
+
+#spin-amount-adjustment-container {
+    width: 90%;
+    height: 30%;
+    margin-bottom: 10%;
+}
+
+#spin-amount {
+    width: 95%;
+    height: 50%;
+}
+
+#adjust-amount-container {
+    width: 90%;
+    height: 20%;
+    flex-direction: row;
+}
+
+#increase-amount-button {
+    width: 50%;
+    height: 100%;
+    background-color: lime;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+}
+
+#decrease-amount-button {
+    width: 50%;
+    height: 100%;
+    background-color: red;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    border-left: none;
+}
+
+.standard-border {
+    border: 3px solid black;
+    border-radius: 30px;
+}
+
+.flex-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pressable:hover {
+    cursor: pointer;
+}
+
+.text {
+    font-size: 50px;
+    font-family: Bahnschrift;
+}
+
+.row {
+    height: 100%;
+    width: 100%;
+    border-left: 2px solid black;
+}
+
+.row div {
+    width: 100%;
+    height: 33.3%;
+    font-family: 'Bahnschrift';
+    font-size: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 2px solid black;
+    box-sizing: border-box;
+}
